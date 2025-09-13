@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yahia Diaa - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <script src="script.js"></script>
+
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+
+
+    <header id="header">
+        <nav>
+            <div class="logo">
+                <a href="#about" class="nav-link">Yahia Diaa</a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#timeline" class="nav-link">Education & Experience</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                 <li><a href="#cv" class="nav-link">CV</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="about">
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="highlight">Yahia Diaa</span></h1>
+            <h2>Software Engineering Student & Developer & Geaphic Designer </h2>
+            <p>I create innovative solutions with a focus on clean code, efficiency, and user experience, also 
+                proffional social media designs and logos.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View Projects</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-container">
+                <img src="images/Yahia_Diaa.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="about-details">
+        <div class="container">
+            <p>I am a software engineer, Flutter developer, and graphic designer with strong proficiency in C++ and Python, and hands-on experience in Dart and Flutter for mobile and web development. I have a solid understanding of algorithms, data structures, and OOP principles, and I’m eager to contribute to impactful projects. Additionally, I bring creative expertise in graphic design, combining technical skills with a strong visual sense to deliver polished and user-focused solutions. I am experienced in using Git, version control, and collaborative workflows to ensure efficient teamwork and project success..</p>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <p class="section-subtitle">My technical proficiency across different areas</p>
+
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-cuttlefish"></i>
+                    </div>
+                    <h3>C++ Programming</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-percent="80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python Development</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-percent="90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Flutter & Dart</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-percent="90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h3>Algorithms & Data Structures</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-percent="88%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database Management</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-percent="75%"></div>
+                    </div>
+                </div>
+              <div class="skill-card">
+                <div class="skill-icon">
+                    <!-- Use a social media–related icon -->
+                    <i class="fab fa-instagram"></i>
+                    <!-- Alternatives: fab fa-facebook, fab fa-behance, fab fa-dribbble -->
+                </div>
+                <h3>Social Media Designs</h3>
+                <div class="skill-level">
+                    <div class="skill-bar" data-percent="85%"></div>
+                </div>
+                </div>
+
+                <div class="skill-card">
+                <div class="skill-icon">
+                    <!-- Use a branding-related icon -->
+                    <i class="fas fa-pen-nib"></i>
+                    <!-- Alternatives: fas fa-paint-brush, fas fa-pencil-ruler, fas fa-vector-square -->
+                </div>
+                <h3>Logos and Branding</h3>
+                <div class="skill-level">
+                    <div class="skill-bar" data-percent="75%"></div>
+                </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="timeline" id="timeline">
+        <h2 class="timeline-title">Education & Experience</h2>
+        <div class="timeline-container">
+
+            <div class="timeline-item left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Software Engineering Student</h3>
+                    <p><strong>Sep 2023 – Present</strong></p>
+                    <p>Faculty of Computer Science and Artificial Intelligence, Cairo University</p>
+                    <p>Specializing in software development, algorithms, data structures, and OOP principles.</p>
+                </div>
+            </div>
+
+      
+
+            <div class="timeline-item right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Flutter Development – Digital Egypt Pioneers Initiative (DEPI)</h3>
+                    <p><strong>Jun 2025 – Dec 2025</strong></p>
+                    <p>Advanced Flutter development training with focus on Dart, Firebase, mobile deployment, UX/UI, and
+                        Git/GitHub workflows.</p>
+                    <p>Completed a capstone project while applying unit testing, functional documentation, and agile
+                        methodologies.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Member Graphic Design in Minders </h3>
+                    <p><strong>Jan 2024 - Oct 2024</strong></p>
+                    <p>As a member of the graphic design team at Minders, I gained valuable experience in creating professional designs and collaborating effectively within teams. By participating in numerous campaigns, I developed strong skills in logo creation and branding, further enhancing my expertise in delivering impactful visual content..</p>
+                </div>
+            </div>
+               <div class="timeline-item right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Head Graphic Design in Minders </h3>
+                    <p><strong>Jan 2024 - Oct 2024</strong></p>
+                    <p>As the Head of Graphic Design, I developed strong leadership and mentoring skills by teaching a group key graphic design concepts and topics. I successfully led the team through numerous campaigns, managing and supporting them not only in enhancing their technical design skills but also in improving their soft skills and problem-solving abilities. </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <p class="section-subtitle">Here are some of my certifications and achievements</p>
+
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <img src="images\Database Certification.jpg" alt="Databse Certificate">
+                    <h3>Database workshop</h3>
+                </div>
+
+                <div class="cert-card">
+                    <img src="images/YEHIA.png" alt="Graphic Design Certificate">
+                    <h3>Graphic Design member at minders</h3>
+                </div>
+             
+        </div>
+    </section> 
+
+
+
+    <section class="CS projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">CS Projects</h2>
+            <p class="section-subtitle">Here are some of my key projects</p>
+
+            <div class="projects-grid">
+
+                <!-- Numbers Converting System -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images\ns.png">
+                    </div>
+                    <div class="project-content">
+                        <h3>Numbers Converting System</h3>
+                        <p>A python system for converting between different number bases efficiently.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Conversion</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/YahiaDiaa/Numbering-systems-calculation-conversion"
+                                class="btn small-btn secondary-btn" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+            
+
+            
+
+                <!-- Tic Tac Toe -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/tic tac toe.jpg">
+                    </div>
+                    <div class="project-content">
+                        <h3>Tic Tac Toe</h3>
+                        <p> Tic Tac Toe games implemented in C++ and GUI with python.</p>
+                        <div class="project-tags">
+                            <span>C++</span>
+                            <span>Python</span>
+
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/YahiaDiaa/Assignment-2"
+                                class="btn small-btn secondary-btn" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Image Processing -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/luka.png">
+                    </div>
+                    <div class="project-content">
+                        <h3>Image Processing</h3>
+                        <p>A C++ project focused on applying image filters and processing algorithms.</p>
+                        <div class="project-tags">
+                            <span>C++</span>
+                            <span>image editing</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/YahiaDiaa/Photo_Editor_project"
+                                class="btn small-btn secondary-btn" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+        
+                <!-- Metro Project -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/logo.jpg">
+                    </div>
+                    <div class="project-content">
+                        <h3>Metro Project</h3>
+                        <p>A flutter app of a metro system with stations and routes.</p>
+                        <div class="project-tags">
+                            <span>Flutter</span>
+                            <span>Simulation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Amrwael10/metro_project" class="btn small-btn secondary-btn"
+                                target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+  
+
+
+
+
+
+    
+    <section class="Graphic Design projects" id="projects">
+        <div class="container">
+            <h2 class="section-title"> Graphic Design Projects</h2>
+            <p class="section-subtitle">Here are some of my key projects</p>
+
+            <div class="projects-grid">
+
+                <!-- Numbers Converting System -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images\Ramdan 24.png">
+                    </div>
+                    <div class="project-content">
+                        <h3>Minders'24 Ramdan campaigns</h3>
+                        <div class="project-tags">
+                            <span>Photoshop</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.behance.net/gallery/198304723/Minders24-Ramadan-Social-media-Campaign"
+                                class="btn small-btn secondary-btn" target="_blank">behance</a>
+                        </div>
+                    </div>
+                </div>
+
+            
+
+            
+
+                <!-- Tic Tac Toe -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/Magazine 24.png">
+                    </div>
+                    <div class="project-content">
+                        <h3>Minders'24 Magazine</h3>
+                        <div class="project-tags">
+                            <span>Photoshop </span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.behance.net/gallery/203066203/Minders24-Magazine-Campaign"
+                                class="btn small-btn secondary-btn" target="_blank">behance</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Image Processing -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/First Step.png">
+                    </div>
+                    <div class="project-content">
+                        <h3>Minders24 First-step event</h3>
+                        <div class="project-tags">
+                            <span>Photoshop </span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.behance.net/gallery/208710221/Minders24-First-step-event"
+                                class="btn small-btn secondary-btn" target="_blank">behance</a>
+                        </div>
+                    </div>
+                </div>
+
+        
+                <!-- Metro Project -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/25 Rec.png">
+                    </div>
+                    <div class="project-content">
+                        <h3>Minders'25 Recruitment</h3>
+                        <div class="project-tags">
+                            <span>Photoshop</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.behance.net/gallery/217698903/Minders25-Recruitment" class="btn small-btn secondary-btn"
+                                target="_blank">behance</a>
+                        </div>
+                    </div>
+                </div>
+                   <!-- Numbers Converting System -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images\25 Ram.png">
+                    </div>
+                    <div class="project-content">
+                        <h3>Minders'25 Ramdan campaigns</h3>
+                        <div class="project-tags">
+                            <span>Photoshop</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.behance.net/gallery/224939771/Minders25-Ramadan-Social-media-Campaign"
+                                class="btn small-btn secondary-btn" target="_blank">behance</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+      <!-- CV / Resume Section -->
+    <section class="cv" id="cv">
+        <div class="container">
+            <h2 class="section-title">My CV</h2>
+            <div class="cv-card">
+                <i class="fas fa-file-pdf cv-icon"></i>
+                <p>A detailed resume including my education, skills, certifications, and projects.</p>
+                <div class="cv-buttons">
+                    <a href="My CV.pdf" target="_blank" class="btn primary-btn">
+                        <i class="fas fa-eye"></i> View CV
+                    </a>
+                    <a href="My CV.pdf" download class="btn secondary-btn">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+
+                <!-- Email Clickable (Gmail) -->
+                <div class="contact-item animate">
+                    <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=yahiadiaa1010@gmail.com"
+                        target="_blank">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>yahiadiaa1010@gmail.com</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Phone -->
+                <div class="contact-item animate">
+                    <a href="tel:+1090233513">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+201090233513</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Location -->
+                <div class="contact-item animate">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Egypt</p>
+                    </div>
+                </div>
+
+                <!-- Social Links -->
+                <div class="social-links-container animate">
+                    <h4>Connect With Me</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/YahiaDiaa" target="blank" class="social-icon"
+                            aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.behance.net/yehiadiaa" target="blank" class="social-icon"
+                            aria-label="GitHub"><i class="fab fa-behance"></i></a>
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
